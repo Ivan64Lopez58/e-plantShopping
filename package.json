@@ -1,21 +1,23 @@
 {
+  "homepage": "https://Ivan64Lopez58.github.io/e-plantShopping",
   "name": "shoppingcart",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview --host",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
+    "predeploy": "npm run build",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-redux": "^9.1.1"
+    "react-redux": "^9.1.1",
+    "react-router-dom": "^7.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
