@@ -1,8 +1,8 @@
-import { defineConfig } from "vite";
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  base: "/", // Base URL si es que usas el dominio raíz en Railway
-  build: {
-    outDir: "dist", // El directorio de salida donde los archivos de producción serán generados
-  },
-});
+  base: "/e-plantShopping",
+  plugins: [react()],
+})
