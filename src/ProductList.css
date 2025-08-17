@@ -4,17 +4,6 @@ body, h1, ul {
     padding: 0;
 }
 
-h1{
-     font-size: 2.5rem;
-  color: #2e7d32;
-  margin-bottom: 16px;
-  margin-top: 10px;
-  border-bottom: 3px solid #4caf50;
-  padding-bottom: 8px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  text-align: center;
-}
 /* Set a background color */
 body {
     font-family: Arial, sans-serif;
@@ -121,18 +110,6 @@ body {
 .product-button:hover {
     background-color: #c0392b;
 }
-.cart-btn {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: red;
-  color: white;
-  border-radius: 50%;
-  padding: 4px 8px;
-  font-size: 14px;
-  font-weight: bold;
-}
-
 
 /* Pseudo-elements - Sale badge */
 .product-card::before {
