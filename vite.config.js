@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/", // Base URL si es que usas el dominio raíz en Railway
+  base: "/e-plantShopping/", // Aquí reemplaza 'e-plantShopping' con el nombre de tu repositorio.
   build: {
-    outDir: "dist", // El directorio de salida donde los archivos de producción serán generados
+    outDir: "dist",
   },
 });
